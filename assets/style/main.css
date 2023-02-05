@@ -1,0 +1,258 @@
+   /* Global Style */
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+   }
+
+   :root {
+
+       /* --main-color:; */
+       --transition: 0.7;
+       --light-color: #fff;
+       --dark-color: #000;
+   }
+
+   .container {
+
+       width: 90%;
+       margin: 0 auto;
+   }
+
+   li {
+       list-style: none;
+   }
+
+   a {
+       text-decoration: none;
+   }
+
+   /* End of Global Style */
+
+   /* Main Style */
+   .navbar {
+       position: fixed;
+       left: 0;
+       right: 0;
+       z-index: 2;
+       padding-top: 20px;
+       box-shadow: 0px 0px 3px #eeee;
+       background-color: var(--light-color);
+   }
+
+   .navbar .container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .list {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       width: 20%;
+   }
+
+   .logo {
+
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+   }
+
+   .banner {
+       width: 100%;
+       min-height: 100vh;
+       background-image: url("../../assets/images/Hero.png");
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+
+   }
+
+   .banner .text {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+
+   .banner .text h1 {
+       font-size: 3rem;
+       margin-bottom: 2rem;
+       font-weight: bold;
+       letter-spacing: .5rem
+   }
+
+   .banner .btn {
+       background-color: var(--dark-color);
+       padding: 1rem 2rem;
+       color: var(--light-color);
+       border-radius: 1rem;
+       margin-top: 2rem;
+       cursor: pointer;
+   }
+
+   .logo {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .logo .img {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+
+   }
+
+   .logo .img h4 {
+
+       font-weight: bold;
+       margin: 0 1rem;
+
+   }
+
+   .collections {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+
+   .collections .content-text {
+       padding: 2rem;
+       text-align: center;
+   }
+
+   .collections .content-text h2 {
+
+       margin: 2rem 0;
+       font-size: 2rem;
+
+   }
+
+   .cards {
+       display: flex;
+       justify-content: space-between;
+       flex-wrap: wrap;
+       align-items: center;
+   }
+
+   .cards .cards {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+
+   .cards .card-text {
+       text-align: center;
+   }
+
+   .cards .card-text h2 {
+
+       padding-top: 1rem;
+   }
+
+   .cards .card-text p {
+       padding: 1rem;
+       font-size: .75rem;
+   }
+
+
+   .ourteams .content-text {
+       padding: 2rem;
+       text-align: center;
+       margin-top: 2rem;
+   }
+
+   .ourteams .content-text h2 {
+
+       margin: 1rem 0;
+       font-size: 2rem;
+
+   }
+
+   .ourteams .thumbnails {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       flex-wrap: wrap;
+
+   }
+
+   .ourteams .thumbnails .thumbnail {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+
+   .ourteams .thumbnails .thumbnail img {
+
+       margin-bottom: 2rem;
+   }
+
+   .thumbnails .thumbnail .caption {
+       text-align: center;
+   }
+
+   .service .content-text {
+       padding: 2rem;
+       text-align: center;
+       margin-top: 2rem;
+   }
+
+   .service .content-text h2 {
+
+       margin: 1rem 0;
+       font-size: 2rem;
+
+   }
+
+   .service {
+       padding-bottom: 2rem;
+   }
+
+   .service .services {
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       flex-wrap: wrap;
+
+   }
+
+   .service .services .single-service {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+   }
+
+   .services .single-service .caption {
+       text-align: center;
+   }
+
+   .services .single-service i {
+       font-size: 2rem;
+       margin-bottom: 2rem;
+       color: hsl(240, 63%, 58%);
+
+   }
+
+   .questions {
+       padding-top: 5rem;
+   }
+   .sell-all{
+    position: relative;
+   }
+
+   .sell-all .text-img{
+    position: absolute;
+    t
+   }
