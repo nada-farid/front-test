@@ -53,6 +53,11 @@
        width: 20%;
    }
 
+   .list .active {
+       color: rgb(213, 24, 191);
+       font-weight: bold;
+   }
+
    .logo {
 
        display: flex;
@@ -88,7 +93,7 @@
        letter-spacing: .5rem
    }
 
-   .banner .btn {
+   .btn {
        background-color: var(--dark-color);
        padding: 1rem 2rem;
        color: var(--light-color);
@@ -248,11 +253,20 @@
    .questions {
        padding-top: 5rem;
    }
-   .sell-all{
-    position: relative;
+
+   .sell-all {
+       position: relative;
    }
 
-   .sell-all .text-img{
-    position: absolute;
-    t
+   .sell-all .text-img {
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+   }
+
+   .footer .container {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
    }
